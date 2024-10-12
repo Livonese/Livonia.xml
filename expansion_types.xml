@@ -3781,10 +3781,10 @@
     </type>
 	<!-- ASSAULT RIFLES -->
 	<type name="Expansion_M16">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>3600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3792,6 +3792,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
         <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="Expansion_M1A">
         <nominal>0</nominal>
