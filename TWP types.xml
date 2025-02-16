@@ -16,12 +16,12 @@
 
 <!-- 1 AMMO -->
 	<type name="TWP_Ammo_44Mag">
-        <nominal>85</nominal>
+        <nominal>15</nominal>
         <lifetime>28000</lifetime>
         <restock>300</restock>
-        <min>60</min>
-        <quantmin>34</quantmin>
-        <quantmax>67</quantmax>
+        <min>10</min>
+        <quantmin>25</quantmin>
+        <quantmax>60</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -31,10 +31,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AmmoBox_44mag_30Rnd">
-        <nominal>40</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>20</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -42,11 +42,10 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Ammo_500SW_Mag">
-        <nominal>75</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>50</min>
@@ -61,10 +60,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AmmoBox_500SW_15Rnd">
-        <nominal>35</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -216,45 +215,39 @@
 	<!-- 545x39 -->
 	<type name="TWP_AEK971">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AK105">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AK107">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AK107Camouflage">
         <lifetime>10800</lifetime>
@@ -265,66 +258,57 @@
     </type>
 	<type name="TWP_AK12">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AK47">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AKS74U">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AN94">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<!-- 545x39 -->
 	<!-- 556x45 -->
 	<type name="TWP_ACE23">
         <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -340,7 +324,7 @@
     </type>
 	<type name="TWP_ACWR">
         <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -355,19 +339,17 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AR15_SLR">
-        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AR70">
@@ -378,56 +360,52 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_ARX160">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_ARX160Black">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_ASR">
-        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_FNFNC">
         <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -435,33 +413,31 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_HKCarabine">
-        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_LR300">
-        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -474,10 +450,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_LR300Camo">
-        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -490,114 +466,124 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_M16">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-    </type>
-	<type name="TWP_M16A1Black">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-    </type>
-	<type name="TWP_M16A1Wood">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-    </type>
-	<type name="TWP_M16A2">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-    </type>
-	<type name="TWP_M16A3">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-    </type>
-	<type name="TWP_M16A4">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-    </type>
-	<type name="TWP_M4A1">
         <nominal>4</nominal>
-        <lifetime>10800</lifetime>
-        <restock>900</restock>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
-	<type name="TWP_M4A1Black">
+	<type name="TWP_M16A1Black">
         <nominal>4</nominal>
-        <lifetime>10800</lifetime>
-        <restock>900</restock>
-        <min>2</min>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+    </type>
+	<type name="TWP_M16A1Wood">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+    </type>
+	<type name="TWP_M16A2">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+    </type>
+	<type name="TWP_M16A3">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+    </type>
+	<type name="TWP_M16A4">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+    </type>
+	<type name="TWP_M4A1">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="ContaminatedArea"/>
+    </type>
+	<type name="TWP_M4A1Black">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_M4V5">
         <nominal>4</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -612,8 +598,8 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_MK18">
-        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -624,12 +610,14 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
-	<type name="TWP_PindadSS2">
-        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
+	<type name="TWP_HK33">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -638,7 +626,21 @@
         <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+	<type name="TWP_PindadSS2">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>900</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_QBZ03">
@@ -660,17 +662,15 @@
 	<!-- 762x39 -->
 	<type name="TWP_AK47Tactical">
         <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AMD">
         <nominal>1</nominal>
@@ -682,7 +682,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
     </type>
@@ -694,17 +693,16 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_ASVal">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>300</restock>
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
         <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_RK95">
         <nominal>1</nominal>
@@ -716,7 +714,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
         <value name="Tier3"/>
     </type>
@@ -748,10 +745,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_M249">
-        <nominal>7</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>4</min>
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -760,10 +757,10 @@
         <usage name="Military"/>
     </type>
 	<type name="TWP_M60">
-        <nominal>6</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>3</min>
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -840,25 +837,25 @@
 <!-- 3 LONG RANGE (308 + 338 + 408 + 50 cal. & 20mm) -->
 	<!-- 308 -->
 	<type name="TWP_AmericanRifle">
-        <nominal>10</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AmericanRifle_mag_5Rnd">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>0</quantmax>
         <cost>100</cost>
@@ -866,29 +863,26 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Arisaka">
-        <nominal>6</nominal>
+        <nominal>7</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
-        <min>3</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
-        <usage name="Village"/>
+        <tag name="ground"/>
         <usage name="Hunting"/>
-        <value name="Tier3"/>
     </type>
 	<type name="TWP_AWMBlack">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -916,52 +910,46 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AWMDesert">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_AWMGreen">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 	<type name="TWP_AWMGreenTan">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_FNM29">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1008,7 +996,7 @@
     </type>
 	<!-- quest AI has those two rifles above -->
 	<type name="TWP_L96A1">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
@@ -1018,10 +1006,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_LAR">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>1</min>
@@ -1066,9 +1056,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <tag name="floor"/>
+        <usage name="ContaminatedArea"/>
         <usage name="Hunting"/>
-        <value name="Tier3"/>
     </type>
 	<type name="TWP_M24GreenTan">
         <nominal>1</nominal>
@@ -1081,9 +1070,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <tag name="floor"/>
+        <usage name="ContaminatedArea"/>
         <usage name="Hunting"/>
-        <value name="Tier3"/>
     </type>
 	<type name="TWP_M24GreenTan2">
         <nominal>1</nominal>
@@ -1096,42 +1084,38 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <tag name="floor"/>
+        <usage name="ContaminatedArea"/>
         <usage name="Hunting"/>
-        <value name="Tier3"/>
     </type>
 	<type name="TWP_M24Snow">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <tag name="floor"/>
         <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_M24Wood">
-        <nominal>12</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>6</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="ground"/>
-        <tag name="floor"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_M40A5">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
         <min>2</min>
@@ -1140,7 +1124,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="ground"/>
         <tag name="floor"/>
         <usage name="ContaminatedArea"/>
     </type>
@@ -1152,28 +1135,31 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_McMillanCS5">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
+        <restock>1800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="ground"/>
         <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_MosinNagant">
-        <nominal>10</nominal>
+        <nominal>11</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -1188,55 +1174,58 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Hunting"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_PSG1">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Police"/>
-        <value name="Tier3"/>
-    </type>
-	<type name="TWP_Remington700">
-        <nominal>12</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>6</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-	<type name="TWP_RemingtonMSR">
-        <nominal>5</nominal>
-        <lifetime>14400</lifetime>
-        <restock>840</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
+        <usage name="Police"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+	<type name="TWP_Remington700">
+        <nominal>9</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+	<type name="TWP_RemingtonMSR">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>840</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="ground"/>
         <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_Sako75">
-        <nominal>10</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1250,7 +1239,7 @@
         <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1282,7 +1271,7 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Type64">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -1305,7 +1294,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<!-- 308 -->
@@ -1367,9 +1355,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="ground"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <tag name="floor"/>
+        <usage name="Underground"/>
+        <value name="Tier2"/>
     </type>
 	<!-- 50 cal -->
 <!-- 3 LONG RANGE (308 + 338 + 408 + 50 cal. & 20mm) -->
@@ -1388,10 +1376,10 @@
         <value name="Tier1"/>
     </type>
 	<type name="TWP_Optic_Vlife">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1402,18 +1390,18 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Optic_NCSTAR">
-        <nominal>9</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>660</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <usage name="Hunting"/>
         <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
 	<type name="TWP_Optic_Steyr">
         <nominal>4</nominal>
@@ -1425,50 +1413,46 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <usage name="Hunting"/>
     </type>
 	<type name="TWP_Optic_Camouflage">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Optic_Snowy">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <usage name="Hunting"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Optic_FG42">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="floor"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <usage name="Military"/>
     </type>
 	<type name="TWP_TrijiconACOG">
         <nominal>5</nominal>
@@ -1517,10 +1501,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_LongRangeOptic_Tan">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1528,14 +1512,13 @@
         <category name="weapons"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_LongRangeOptic_Green">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1543,11 +1526,10 @@
         <category name="weapons"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_LongRangeOptic_Black">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -1599,16 +1581,18 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Optic_Redcross">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 <!-- 4 OPTICS -->
 <!-- 5 PISTOL -->
@@ -1678,7 +1662,7 @@
         <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1719,10 +1703,10 @@
 	<!-- ammo 45ACP -->
 	<!-- ammo 44 mag -->
 	<type name="TWP_BerettaDE_mag_15Rnd">
-        <nominal>35</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>25</min>
+        <min>4</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1734,10 +1718,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_BerettaDEBurton">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>840</restock>
-        <min>12</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1748,10 +1732,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_BerettaDEBlack">
-        <nominal>15</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>900</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1772,10 +1756,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_NRX_Magnum">
-        <nominal>25</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>500</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1797,10 +1781,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_MagnumCompetitor">
-        <nominal>25</nominal>
+        <nominal>21</nominal>
         <lifetime>28800</lifetime>
         <restock>900</restock>
-        <min>15</min>
+        <min>13</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1821,10 +1805,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_Taurus">
-        <nominal>25</nominal>
+        <nominal>23</nominal>
         <lifetime>28800</lifetime>
         <restock>900</restock>
-        <min>15</min>
+        <min>14</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1856,10 +1840,10 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_CZ75M">
-        <nominal>25</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>33</nominal>
+        <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>15</min>
+        <min>24</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1869,21 +1853,8 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
-    <type name="TWP_FNS9">
-        <nominal>10</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Village"/>
-        <value name="Tier3"/>
-    </type>
 	<type name="TWP_Glock17">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
         <min>0</min>
@@ -1897,10 +1868,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Glock18">
-        <nominal>10</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>14</nominal>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>5</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1908,33 +1879,35 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Police"/>
+        <usage name="Prison"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="TWP_GS_9mm">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
+        <usage name="Military"/>
         <value name="Tier3"/>
     </type>
 	<!-- new pistol 2024 -->
     <type name="TWP_HK47">
-        <nominal>10</nominal>
-        <lifetime>14400</lifetime>
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
         <restock>900</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Village"/>
         <usage name="Town"/>
         <value name="Tier3"/>
     </type>
@@ -1953,10 +1926,10 @@
     </type>
 	<!-- new pistol 2024 -->
     <type name="TWP_P8">
-        <nominal>30</nominal>
+        <nominal>34</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>26</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1972,11 +1945,18 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_SP1Vektor">
-        <lifetime>14400</lifetime>
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>900</restock>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_WaltherP99">
         <lifetime>14400</lifetime>
@@ -1986,52 +1966,58 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_WaltherQ5">
-        <nominal>25</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>15</min>
+        <min>21</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_Beretta92FS">
-        <nominal>25</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>15</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_Beretta92FSDesert">
-        <nominal>15</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>100</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Village"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_BerettaGoldenFlower">
-        <nominal>12</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>100</restock>
-        <min>6</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Village"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_BerettaSwordCutlass">
         <lifetime>14400</lifetime>
@@ -2040,16 +2026,18 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="TWP_BerettaPX4">
-        <nominal>30</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>20</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_Glock18Honor">
         <lifetime>14400</lifetime>
@@ -2141,33 +2129,33 @@
 	<!--Tokarev riffle 1930-->
 	<!-- 357 magnum -->
 	<type name="TWP_Winchester1873">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>2</min>
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>780</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_WinchesterRifle">
-        <nominal>20</nominal>
+        <nominal>21</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>12</min>
-        <quantmin>0</quantmin>
-        <quantmax>50</quantmax>
+        <restock>720</restock>
+        <min>14</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="ground"/>
         <usage name="Farm"/>
         <usage name="Village"/>
-        <usage name="Town"/>
     </type>
 	<!-- 357 magnum -->
 <!-- 6 SHOTGUNS -->
@@ -2181,13 +2169,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
         <tag name="ground"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="TWP_BenelliM3">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>2</min>
@@ -2196,11 +2183,11 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
     <type name="TWP_BenelliM4">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>2</min>
@@ -2209,7 +2196,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
     <type name="TWP_Benelli_Supernova">
@@ -2222,7 +2209,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -2237,7 +2224,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Police"/>
         <usage name="Town"/>
         <usage name="Village"/>
@@ -2255,7 +2242,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
@@ -2269,7 +2256,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Police"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -2284,7 +2271,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
     </type>
 	<type name="TWP_M1912">
@@ -2297,39 +2284,39 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Village"/>
         <usage name="Town"/>
     </type>
 	<type name="TWP_MP153">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <usage name="Prison"/>
     </type>
 	<type name="TWP_MP153Black">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
+        <usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <usage name="Prison"/>
     </type>
 	<type name="TWP_Mossberg500">
         <nominal>8</nominal>
@@ -2341,7 +2328,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Police"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
@@ -2352,16 +2339,16 @@
         <value name="Tier2"/>
     </type>
 	<type name="TWP_Mossberg590a1">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Police"/>
     </type>
 	<type name="TWP_Remington870Tactical">
@@ -2374,12 +2361,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Prison"/>
         <usage name="Police"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
 	<type name="TWP_SawedShotgun">
         <nominal>12</nominal>
@@ -2391,7 +2376,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Village"/>
         <usage name="Town"/>
         <usage name="Farm"/>
@@ -2408,7 +2393,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -2423,11 +2408,13 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_VR80">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -2436,9 +2423,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="TWP_ImprovisedShotgun">
@@ -2456,7 +2442,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Town"/>
     </type>
     <type name="TWP_Komrad12">
@@ -2518,16 +2504,17 @@
     </type>
 	<!-- 9x19 -->
 	<type name="TWP_SRFrame">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Police"/>
+        <value name="Tier1"/>
     </type>
 	<type name="TWP_SRGlock">
         <lifetime>10800</lifetime>
@@ -2553,10 +2540,10 @@
     </type>
 	<!-- glock42 only -->
 	<type name="TWP_PistolLight">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>60</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2567,10 +2554,10 @@
         <usage name="Police"/>
     </type>
 	<type name="TWP_MK23Light">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>60</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2627,25 +2614,22 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_AKSuppressor">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>14400</restock>
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
         <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_PistolSuppressor">
-        <nominal>25</nominal>
+        <nominal>34</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>15</min>
+        <min>26</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2681,6 +2665,8 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Sling">
         <nominal>0</nominal>
@@ -2696,16 +2682,18 @@
         <usage name="Military"/>
     </type>
 	<type name="TWP_Arisaka_Bayonet">
-        <nominal>3</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
         <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -2726,10 +2714,10 @@
         <value name="Tier2"/>
     </type>
 	<type name="TWP_WhiteWolfBayonet">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <restock>200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2740,10 +2728,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_WolfBayonet">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <restock>240</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2768,18 +2756,16 @@
         <usage name="Hunting"/>
     </type>
 	<type name="TWP_SpiderBayonet">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<!--fit an AK-->
@@ -3441,7 +3427,7 @@
     </type>
 	<!--Jack = spawnabletypes (it spawn on vest)-->
 	<type name="TWP_Stielhandgranate">
-        <nominal>7</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
         <min>3</min>
@@ -3451,7 +3437,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
         <tag name="shelves"/>
+        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_HolyGrenade">
         <lifetime>10800</lifetime>
@@ -3462,9 +3451,9 @@
     </type>
 	<type name="TWP_MK2_Grenade">
         <nominal>8</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3476,25 +3465,25 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_T13_Beano">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
         <tag name="shelves"/>
-        <usage name="Military"/>
+        <usage name="Underground"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 	<type name="TWP_M26">
         <nominal>8</nominal>
-        <lifetime>10800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3506,33 +3495,30 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_M69">
-        <nominal>1</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>6</nominal>
+        <lifetime>28800</lifetime>
         <restock>900</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
         <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_Zarya3_StunGrenade">
-        <nominal>10</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1800</restock>
-        <min>5</min>
+        <nominal>6</nominal>
+        <lifetime>14400</lifetime>
+        <restock>180</restock>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
         <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_WhoopeeCushion_Mine">
         <lifetime>10800</lifetime>
@@ -3551,16 +3537,19 @@
 <!-- Grenades / Explosives -->
 <!-- MAGAZINES -->
 	<type name="Mag_CMAG_100Rnd">
-        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_ACE23_mag_30Rnd">
         <lifetime>10800</lifetime>
@@ -3612,17 +3601,16 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_AK47Tactical_mag_45Rnd">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <restock>0</restock>
         <min>1</min>
-        <quantmin>20</quantmin>
+        <quantmin>25</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="TWP_AMD_mag_30Rnd">
         <lifetime>10800</lifetime>
@@ -3686,13 +3674,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
     </type>
-	<type name="TWP_ASVal_mag_30Rnd">
-        <nominal>4</nominal>
+	<type name="TWP_HK33_mag_30Rnd">
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <min>3</min>
+        <quantmin>20</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -3700,11 +3688,23 @@
         <usage name="Military"/>
         <value name="Tier3"/>
     </type>
+	<type name="TWP_ASVal_mag_30Rnd">
+        <nominal>1</nominal>
+        <lifetime>10800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
+    </type>
 	<type name="TWP_AWM_mag_5Rnd">
-        <nominal>8</nominal>
+        <nominal>11</nominal>
         <lifetime>10800</lifetime>
         <restock>180</restock>
-        <min>4</min>
+        <min>6</min>
         <quantmin>0</quantmin>
         <quantmax>0</quantmax>
         <cost>100</cost>
@@ -3712,6 +3712,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_AX50_mag_10Rnd">
         <nominal>3</nominal>
@@ -3740,10 +3743,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TWP_CZ75M_mag_20Rnd">
-        <nominal>30</nominal>
+        <nominal>37</nominal>
         <lifetime>10800</lifetime>
         <restock>100</restock>
-        <min>20</min>
+        <min>26</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3762,10 +3765,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_FNM29_mag_30Rnd">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3776,10 +3779,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TWP_FNS9_mag_18Rnd">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3865,16 +3868,19 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_M249_mag_200Rnd">
-        <nominal>8</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_M4A1_mag_35Rnd">
         <lifetime>10800</lifetime>
@@ -3884,34 +3890,39 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_M60_mag_200Rnd">
-        <nominal>7</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>2</nominal>
+        <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="floor"/>
+        <tag name="ground"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_McMillanCS5_10Rnd">
-        <nominal>7</nominal>
+        <nominal>9</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_MK18_mag_100Rnd">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -3927,10 +3938,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_PSG1_mag_5Rnd">
-        <nominal>6</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
-        <restock>900</restock>
-        <min>3</min>
+        <restock>600</restock>
+        <min>4</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3938,6 +3949,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Police"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_RK95_mag_30Rnd">
@@ -3987,16 +3999,17 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_Beretta92FS_mag_15Rnd">
-        <nominal>35</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>20</min>
+        <min>4</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Village"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_BerettaSwordCutlass_mag_20Rnd">
         <lifetime>10800</lifetime>
@@ -4004,10 +4017,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_BerettaPX4_mag_17Rnd">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>20</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4029,7 +4042,7 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Glock17_mag_19Rnd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
         <min>0</min>
@@ -4042,10 +4055,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Glock_mag_33Rnd">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>9</quantmin>
         <quantmax>34</quantmax>
         <cost>100</cost>
@@ -4057,10 +4070,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_Glock_mag_50Rnd">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -4106,17 +4119,17 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_GS_9mm_mag_17Rnd">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>90</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
+        <usage name="Military"/>
         <value name="Tier3"/>
     </type>
     <type name="TWP_LugerP08_mag_8Rnd">
@@ -4153,10 +4166,10 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_HK47_mag_15Rnd">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -4173,34 +4186,35 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_L96A1_mag_5Rnd">
-        <nominal>7</nominal>
+        <nominal>9</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <tag name="shelves"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_M24_mag_4Rnd">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>6</min>
+        <min>3</min>
         <quantmin>25</quantmin>
         <quantmax>75</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TWP_M40A5_mag_5Rnd">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
         <min>4</min>
@@ -4213,42 +4227,52 @@
         <usage name="ContaminatedArea"/>
     </type>
 	<type name="TWP_MK23Socom_mag_12Rnd">
-        <nominal>15</nominal>
+        <nominal>24</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>10</min>
+        <restock>840</restock>
+        <min>14</min>
         <quantmin>20</quantmin>
-        <quantmax>80</quantmax>
+        <quantmax>60</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
+		<tag name="floor"/>
+		<tag name="shelves"/>
+        <usage name="ContaminatedArea"/>
         <usage name="Military"/>
+        <usage name="Underground"/>
     </type>
     <type name="TWP_P8_mag_15Rnd">
-        <nominal>35</nominal>
+        <nominal>36</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>26</min>
         <quantmin>0</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+		<tag name="shelves"/>
         <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_RemingtonMSR_mag_5Rnd">
-        <nominal>8</nominal>
+        <nominal>9</nominal>
         <lifetime>10800</lifetime>
-        <restock>0</restock>
-        <min>4</min>
+        <restock>300</restock>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
+		<tag name="floor"/>
         <tag name="shelves"/>
         <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_SigSauerP229_mag_13Rnd">
         <lifetime>10800</lifetime>
@@ -4265,10 +4289,10 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_Spas15_mag_8Rnd">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4350,10 +4374,10 @@
         <category name="weapons"/>
     </type>
     <type name="TWP_WaltherQ5_mag_15Rnd">
-        <nominal>30</nominal>
+        <nominal>31</nominal>
         <lifetime>28800</lifetime>
         <restock>100</restock>
-        <min>20</min>
+        <min>22</min>
         <quantmin>0</quantmin>
         <quantmax>20</quantmax>
         <cost>100</cost>
@@ -4361,6 +4385,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_MAB38_mag_40Rnd">
         <lifetime>10800</lifetime>
@@ -4425,10 +4451,10 @@
 <!-- MAGAZINES -->
 <!-- Melee -->
 	 <type name="TWP_NailedBat">
-        <nominal>10</nominal>
+        <nominal>16</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4438,45 +4464,47 @@
         <usage name="Town"/>
     </type>
 	<type name="TWP_SawBat">
-        <nominal>10</nominal>
+        <nominal>7</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
+        <usage name="Industrial"/>
         <usage name="Village"/>
         <usage name="Town"/>
     </type>
 	<type name="TWP_Mjolnir">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Rose">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Village"/>
+        <usage name="Farm"/>
     </type>
 	<type name="TWP_Kukri">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -4487,6 +4515,9 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Kukri_Gradient">
         <nominal>4</nominal>
@@ -4500,12 +4531,15 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Kukri_Sakura">
         <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4513,12 +4547,15 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Kukri_Engraved">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4526,36 +4563,33 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_SmithWesson_Knife_Green">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Military"/>
-        <usage name="Hunting"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
     </type>
 	<type name="TWP_SmithWesson_Knife_Black">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Military"/>
-        <usage name="Hunting"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
     </type>
 	<type name="TWP_Holymackerel">
         <nominal>0</nominal>
@@ -4571,21 +4605,39 @@
         <usage name="Military"/>
     </type>
 	<type name="TWP_NinjaSword">
-        <nominal>10</nominal>
+        <nominal>9</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="tools"/>
         <usage name="Village"/>
         <usage name="Town"/>
     </type>
 	<type name="TWP_Axe">
-        <nominal>10</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>22</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>15</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Farm"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+	<type name="TWP_SledgeHammer">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
         <restock>300</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
@@ -4593,26 +4645,15 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
-    </type>
-	<type name="TWP_SledgeHammer">
-        <nominal>15</nominal>
-        <lifetime>10800</lifetime>
-        <restock>300</restock>
-        <min>8</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
         <usage name="Industrial"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWP_FirefighterAxe">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4664,10 +4705,10 @@
         <usage name="Village"/>
     </type>
 	<type name="TWP_Machete_Black">
-        <nominal>5</nominal>
+        <nominal>11</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4675,9 +4716,27 @@
         <category name="tools"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Machete_Camouflage">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
+        <lifetime>10800</lifetime>
+        <restock>300</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Village"/>
+        <usage name="Lunapark"/>
+        <usage name="Town"/>
+        <usage name="Hunting"/>
+        <usage name="Military"/>
+    </type>
+	<type name="TWP_Machete_USA">
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
         <min>1</min>
@@ -4688,25 +4747,14 @@
         <category name="tools"/>
         <usage name="Village"/>
         <usage name="Town"/>
-    </type>
-	<type name="TWP_Machete_USA">
-        <nominal>2</nominal>
-        <lifetime>10800</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_Machete_Brazil">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4714,18 +4762,22 @@
         <category name="tools"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="TWP_HorseStick">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Town"/>
+        <usage name="Lunapark"/>
+        <usage name="School"/>
+        <usage name="Village"/>
     </type>
 <!-- Melee -->
 <!-- TeddyWeaponPack - Halloween -->
@@ -4884,7 +4936,7 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWP_MiniReaper">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -4900,10 +4952,10 @@
         <usage name="Hunting"/>
     </type>
 	<type name="TWP_Crow">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5583,6 +5635,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
     </type>
+    <type name="TWP_FNS9">
+        <lifetime>14400</lifetime>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+    </type>
 	<type name="TWP_G43">
         <lifetime>7200</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
@@ -5924,16 +5983,6 @@
         <category name="weapons"/>
     </type>
 	<type name="TWP_G36c_mag_30Rnd">
-        <lifetime>10800</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-    </type>
-	<type name="TWP_HK33">
-        <lifetime>14400</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-    </type>
-	<type name="TWP_HK33_mag_30Rnd">
         <lifetime>10800</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
