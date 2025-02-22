@@ -542,14 +542,16 @@
     <type name="mmg_military_case_green">
         <nominal>1</nominal>
         <lifetime>864000</lifetime>
-        <restock>0</restock>
+        <restock>3600</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
+        <usage name="Underground"/>
+        <value name="Tier3"/>
     </type>
     <type name="mmg_weapon_crate_wood">
         <nominal>7</nominal>
