@@ -3323,7 +3323,7 @@
     </type>
 	<!-- OPTICS -->
 	<type name="ExpansionKar98ScopeOptic">
-        <nominal>15</nominal>
+        <nominal>12</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>7</min>
@@ -3334,7 +3334,6 @@
         <category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="ground"/>
-        <usage name="Town"/>
         <usage name="Hunting"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
@@ -3365,8 +3364,6 @@
 		<tag name="shelves"/>
 		<tag name="floor"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
 	<type name="ExpansionHAMROptic">
         <nominal>3</nominal>
@@ -3381,12 +3378,14 @@
 		<tag name="shelves"/>
 		<tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Expansion_PMII25Optic">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3396,10 +3395,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="ExpansionReflexMRSOptic">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3408,17 +3407,33 @@
 		<tag name="shelves"/>
 		<tag name="floor"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<!-- CLOTHING -->
     <type name="ExpansionCoyoteBlack">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>160</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="ExpansionDesertTortilla">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
         <value name="Tier2"/>
@@ -3449,19 +3464,6 @@
         <usage name="Military"/>
         <value name="Tier3"/>
     </type>
-    <type name="ExpansionDesertTortilla">
-        <nominal>3</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1200</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-    </type>
     <type name="ExpansionMich2001Desert">
         <nominal>2</nominal>
         <lifetime>28800</lifetime>
@@ -3473,6 +3475,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="ExpansionRidersJacketBrown">
@@ -3551,19 +3554,16 @@
         <value name="Tier3"/>
     </type>
 	<type name="Expansion_ANPEQ15_Green">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
-        <usage name="Underground"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
 	<type name="Expansion_ANPEQ15_GreenNV">
         <lifetime>7200</lifetime>
@@ -3581,8 +3581,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<tag name="shelves"/>
-        <usage name="Hunting"/>
-        <usage name="Town"/>
+        <usage name="Farm"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -3618,33 +3617,29 @@
     </type>
 	<!-- LAUNCHERS -->
 	<type name="ExpansionRPG7">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
-        <restock>3600</restock>
+        <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="ground"/>
-        <tag name="floor"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="ExpansionLAW">
-        <nominal>4</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
-        <restock>3600</restock>
-        <min>2</min>
+        <restock>0</restock>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <usage name="Underground"/>
+        <value name="Tier2"/>
     </type>
 	<type name="Expansion_M79">
     </type>
@@ -3672,25 +3667,20 @@
         <category name="weapons"/>
     </type>
 	<type name="Expansion_M9">
-        <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
     </type>
 	<type name="Expansion_Longhorn">
     </type>
 	<!-- SUBMACHINE GUNS -->
 	<type name="Expansion_G36">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>3600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3702,55 +3692,45 @@
         <value name="Tier3"/>
     </type>
 	<type name="Expansion_MPX">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 	<type name="Expansion_MP5">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>10800</lifetime>
-        <restock>1500</restock>
-        <min>6</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <restock>1200</restock>
+        <min>13</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<tag name="ground"/>
         <usage name="Police"/>
         <usage name="Prison"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
 	<type name="Expansion_MP5SD">
-        <nominal>9</nominal>
+        <nominal>16</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <restock>1500</restock>
+        <min>10</min>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<tag name="ground"/>
+        <usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 	<type name="Expansion_MP5_RailAtt">
-        <nominal>5</nominal>
+        <nominal>7</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3758,6 +3738,7 @@
         <category name="weapons"/>
 		<tag name="floor"/>
 		<tag name="shelves"/>
+        <usage name="Military"/>
         <usage name="Police"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -3810,7 +3791,7 @@
         <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3849,23 +3830,24 @@
     </type>
 	<!-- RIFLES -->
 	<type name="Expansion_DT11">
-        <nominal>15</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1200</restock>
-        <min>5</min>
+        <nominal>11</nominal>
+        <lifetime>14400</lifetime>
+        <restock>3600</restock>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Farm"/>
         <usage name="Hunting"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <usage name="Lunapark"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
 	<!-- SHOTGUNS -->
 	<type name="Expansion_BenelliM4">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>3600</restock>
         <min>2</min>
@@ -3878,32 +3860,30 @@
 	</type>
 	<!-- SNIPER RIFLES -->
     <type name="Expansion_AWM">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Underground"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="Expansion_Kar98">
-        <nominal>13</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>8</min>
+        <min>13</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
         <usage name="Hunting"/>
+        <usage name="Village"/>
 		<value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -3925,7 +3905,7 @@
     </type>
 	<type name="AmmoBox_Expansion_338_15rnd">
         <nominal>8</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>28800</lifetime>
         <restock>900</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -3937,7 +3917,7 @@
         <usage name="Underground"/>
     </type>
 	<type name="Expansion_AmmoBox_8mm_15rnd">
-        <nominal>15</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
         <min>10</min>
@@ -3951,240 +3931,151 @@
     </type>
 	<!-- AMMO -->
 	<type name="Expansion_Ammo_8mm">
-        <nominal>45</nominal>
+        <nominal>75</nominal>
         <lifetime>10800</lifetime>
         <restock>600</restock>
-        <min>35</min>
-        <quantmin>10</quantmin>
-        <quantmax>80</quantmax>
+        <min>55</min>
+        <quantmin>17</quantmin>
+        <quantmax>67</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Farm"/>
         <usage name="Town"/>
-        <usage name="Hunting"/>
+        <usage name="Village"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
     </type>
 	<type name="ExpansionAmmoRPG">
-        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
-        <restock>10800</restock>
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
         <min>1</min>
-        <quantmin>100</quantmin>
-        <quantmax>100</quantmax>
+        <quantmin>30</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="floor"/>
-        <tag name="ground"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Underground"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="russweapons"/>
+        <usage name="Special"/>
     </type>
 	<type name="ExpansionAmmoLAW">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>6</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Underground"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 	<type name="Ammo_Expansion_M203_Smoke_White">
-        <nominal>0</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Smoke_Red">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Smoke_Green">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Smoke_Yellow">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Smoke_Purple">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Smoke_Teargas">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Sticky_Smoke_White">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Sticky_Smoke_Red">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Sticky_Smoke_Green">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Sticky_Smoke_Yellow">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Sticky_Smoke_Purple">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_Sticky_Smoke_Teargas">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-    </type>
-	<type name="Ammo_Expansion_M203_HE">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Smoke_Red">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Smoke_Green">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Smoke_Yellow">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Smoke_Purple">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Smoke_Teargas">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_White">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Red">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Green">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Yellow">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Purple">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_Sticky_Smoke_Teargas">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
+    </type>
+	<type name="Ammo_Expansion_M203_HE">
+        <lifetime>7200</lifetime>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="explosives"/>
     </type>
     <type name="Ammo_Expansion_46x30">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>0</min>
         <quantmin>25</quantmin>
         <quantmax>80</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
     </type>
     <type name="Ammo_Expansion_338">
-        <nominal>12</nominal>
+        <nominal>17</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>7</min>
-        <quantmin>20</quantmin>
-        <quantmax>80</quantmax>
+        <min>10</min>
+        <quantmin>15</quantmin>
+        <quantmax>75</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -4193,73 +4084,40 @@
         <value name="Tier3"/>
     </type>
     <type name="Expansion_Ammo_ArrowBolt">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Farm"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
     </type>
 	<!-- MAGAZINES -->
 	<type name="Mag_Expansion_Taser">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Police"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="Mag_Expansion_Vityaz_30Rnd">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>800</restock>
-        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
     </type>
     <type name="Mag_Expansion_M14_20Rnd">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>800</restock>
-        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Village"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mag_Expansion_M14_10Rnd">
-        <nominal>0</nominal>
         <lifetime>10800</lifetime>
-        <restock>800</restock>
-        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Village"/>
-        <value name="Tier3"/>
     </type>
     <type name="Mag_Expansion_M9_15Rnd">
         <nominal>0</nominal>
@@ -4288,17 +4146,16 @@
         <value name="Tier1"/>
 	</type>
 	<type name="Mag_Expansion_G36_30Rnd">
-        <nominal>6</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
         <restock>420</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="Mag_Expansion_Kedr_20Rnd">
@@ -4329,10 +4186,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="Mag_Expansion_AWM_5Rnd">
-	    <nominal>7</nominal>
+	    <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4568,9 +4425,9 @@
     </type>
 	<type name="ExpansionSafeLarge">
         <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4581,10 +4438,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="ExpansionSafeMini">
-        <nominal>9</nominal>
+        <nominal>7</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4617,18 +4474,16 @@
         <value name="Tier3"/>
     </type>
 	<type name="ExpansionGunrack">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Underground"/>
         <usage name="Military"/>
         <value name="Tier3"/>
     </type>
@@ -4672,9 +4527,9 @@
         <usage name="Military"/>
     </type>
 	<type name="ExpansionCodeLock">
-        <nominal>30</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <nominal>31</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
         <min>22</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -4683,8 +4538,6 @@
         <category name="tools"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="ExpansionCone">
         <lifetime>3888000</lifetime>

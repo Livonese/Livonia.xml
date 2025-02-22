@@ -51,7 +51,6 @@
 		<!-- Swarog -->
 	</event>
     <event name="StaticHeliCrash">
-		<zone smin="0" smax="0" dmin="9" dmax="15" r="65" />
 		<zone smin="0" smax="0" dmin="4" dmax="7" r="65" />
 		<!--Zalesie south-->
 		<pos x="780.128000" z="5165.828613" a="357.697601" />
@@ -246,7 +245,7 @@
 		<!--Nadbor-->
 	</event>
     <event name="StaticPoliceCar">
-		<zone smin="0" smax="0" dmin="3" dmax="5" r="45" />
+		<zone smin="0" smax="0" dmin="1" dmax="3" r="45" />
 		<pos x="6488.11377" z="11279.327148" a="331.097137" />
 		<pos x="6359.906" z="10970.853" a="67.064" />
 		<pos x="6338.02002" z="9893.797851" a="26.01256" />
