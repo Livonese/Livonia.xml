@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-    <type name="mmg_supply_crate_unfinished_wood">
+    <type name="mmg_supply_crate_wood">
         <nominal>0</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>864000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="containers"/>
         <tag name=""/>
         <usage name=""/>
@@ -16,15 +16,15 @@
         <value name=""/>
         <value name=""/>
     </type>
-    <type name="mmg_supply_crate_unfinished_grey">
+    <type name="mmg_supply_crate_grey">
         <nominal>0</nominal>
-        <lifetime>14400</lifetime>
+        <lifetime>864000</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="containers"/>
         <tag name=""/>
         <usage name=""/>
@@ -2890,10 +2890,10 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_bottle_tan">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>25</quantmax>
         <cost>100</cost>
