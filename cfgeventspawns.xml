@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
+	<event name="StaticCivwreck">
+		<pos x="800.78" z="7232.42" a="-110.826000" />
+		<pos x="768.36" z="6659.77" a="-710.826000" />
+		<pos x="693.75" z="6116.80" a="-180.826000" />
+		<pos x="780.86" z="5587.89" a="90.0" />
+		<pos x="1130.27" z="5258.11" a="20.826000" />
+		<pos x="1350.39" z="4854.59" a="-80.826000" />
+		
+		<pos x="1718.36" z="6808.11" a="-170.826000" />
+		<pos x="1775.98" z="6323.83" a="-10.826000" />
+		<pos x="2089.45" z="6083.59" a="-0.826000" />
+		<pos x="2429.30" z="5763.67" a="-20.826000" />
+		<pos x="2861.52" z="5305.47" a="44.999820" />
+		<pos x="3293.95" z="4658.79" a="170.826000" />
+		
+		<pos x="2435.55" z="7221.88" a="-45.826000" />
+		<pos x="2847.46" z="6940.82" a="60.826000" />
+		<pos x="2796.68" z="6371.48" a="0.826000" />
+		<pos x="2725.78" z="5871.09" a="-110.826000" />
+		<pos x="3288.48" z="6692.97" a="-120.826000" />
+		<pos x="3691.02" z="6342.97" a="180.0" />
+		<pos x="4093.16" z="6032.62" a="-180.0" />
+		
+		<pos x="4017.38" z="8470.61" a="130.826000" />
+		<pos x="4320.70" z="8104.30" a="-10.826000" />
+		<pos x="4554.30" z="7773.05" a="-150.826000" />
+		<pos x="4812.11" z="7368.95" a="-140.826000" />
+		<pos x="4721.39" z="6806.35" a="-170.826000" />
+		<pos x="4834.96" z="6320.70" a="-100.826000" />
+		
+		<pos x="6304.88" z="10366.99" a="-1.826000" />
+		<pos x="6330.66" z="9891.70" a="60.826000" />
+		<pos x="6466.89" z="9177.05" a="170.826000" />
+		<pos x="6610.94" z="8727.93" a="20.826000" />
+		<pos x="6846.48" z="7951.56" a="120.826000" />
+		<pos x="7198.63" z="7626.17" a="160.826000" />
+		
+		<pos x="8017.97" z="11279.10" a="-10.826000" />
+		<pos x="8166.99" z="10668.55" a="80.826000" />
+		<pos x="7823.44" z="10105.86" a="-20.826000" />
+		
+		<pos x="8746.68" z="11426.17" a="-50.826000" />
+		<pos x="9236.04" z="11015.63" a="110.826000" />
+		<pos x="9386.33" z="10591.50" a="90.826000" />
+		<pos x="9599.80" z="10111.72" a="-10.826000" />
+		<pos x="9700.59" z="9517.19" a="-30.826000" />
+		<pos x="9739.84" z="9127.73" a="-110.826000" />
+		
+		<pos x="10482.91" z="11096.09" a="-30.826000" />
+		<pos x="10126.17" z="10744.92" a="110.826000" />
+		<pos x="9681.15" z="10498.19" a="-120.826000" />
+		<pos x="11032.81" z="10399.22" a="160.826000" />
+		<pos x="11187.89" z="10008.20" a="-20.826000" />
+		<pos x="11454.88" z="9511.13" a="170.826000" />
+		<pos x="11426.95" z="9048.24" a="40.826000" />
+		<pos x="11653.13" z="8571.09" a="-160.826000" />
+	</event>
+	<event name="StaticMedicER">
+		<pos x="3763.07" z="11780.83" a="110.826000" />
+		<pos x="5053.12" z="9783.40" a="120.826000" />
+		<pos x="5061.52" z="9771.29" a="130.826000" />
+		<pos x="5060.74" z="9753.13" a="140.826000" />
+		<pos x="6687.50" z="11127.73" a="150.826000" />
+		<pos x="6705.86" z="11132.91" a="160.826000" />
+		<pos x="9517.77" z="10287.30" a="170.826000" />
+		<pos x="9549.41" z="10273.24" a="-170.826000" />
+		<pos x="9528.52" z="10295.70" a="-160.826000" />
+		<pos x="10859.96" z="11018.65" a="-150.826000" />
+		<pos x="10864.75" z="11026.76" a="-140.826000" />
+		<pos x="11279.10" z="9583.01" a="-130.826000" />
+		<pos x="11285.35" z="9569.24" a="-120.826000" />
+		<pos x="11315.33" z="9578.61" a="-110.826000" />
+		<pos x="813.48" z="5589.94" a="-100.826000" />
+		<pos x="1897.51" z="7382.71" a="-90.826000" />
+		<pos x="1930.86" z="7352.73" a="-80.826000" />
+		<pos x="6067.38" z="4170.61" a="-70.826000" />
+		<pos x="6072.66" z="4200.98" a="-60.826000" />
+		<pos x="6064.36" z="4214.65" a="-50.826000" />
+		<pos x="11485.74" z="4654.30" a="-40.826000" />
+		<pos x="11501.17" z="4637.50" a="-30.826000" />
+		<pos x="11522.46" z="4639.65" a="-20.826000" />
+		<pos x="11473.44" z="2923.24" a="-10.826000" />
+		<pos x="11469.73" z="2936.72" a="0.826000" />
+		<pos x="11481.54" z="2938.38" a="10.826000" />
+		<pos x="11625.98" z="388.48" a="20.826000" />
+		<pos x="11638.67" z="382.23" a="40.826000" />
+		<pos x="11639.06" z="368.85" a="30.826000" />
+	</event>
 	<event name="VehicleBanditTrader">
 		<!-- Topolin -->
 		<pos x="1279.15" z="7243.45" a="-47.860000" y="196.728" group="BanditTrader_TopoNw"/> <!-- north west -->
@@ -69,6 +157,11 @@
 	</event>
     <event name="StaticHeliCrash">
 		<zone smin="0" smax="0" dmin="4" dmax="7" r="65" />
+		<!--NWAF-->
+		<pos x="3531.080000" z="9863.750000" a="96.750000" />
+		<pos x="4543.320000" z="10811.300000" a="163.750000" />
+		<pos x="4286.610000" z="10790.300000" a="-86.750000" />
+		<!--NWAF-->
 		<!--Zalesie south-->
 		<pos x="780.128000" z="5165.828613" a="357.697601" />
 		<pos x="978.757000" z="3940.870000" a="357.697601" />
@@ -240,15 +333,15 @@
 		<pos x="9455.645508" z="10793.627930" />
 	</event>
     <event name="StaticContaminatedArea">
-		<zone smin="0" smax="0" dmin="5" dmax="8" r="80" />
-		<pos x="3787" z="10328" />
-		<pos x="4334" z="10463" />
+		<zone smin="0" smax="0" dmin="0" dmax="1" r="80" />
 		<pos x="7353" z="6406" />
 		<pos x="7418" z="6284" />
 		<pos x="7509" z="6143" />
 		<pos x="7600" z="5990" />
 		<pos x="7718" z="5809" />
 		<pos x="7859" z="5912" />
+		<!-- <pos x="3787" z="10328" />
+		<pos x="4334" z="10463" /> NWAF -->
 		<!--<pos x="4792" z="2292" />
 		<pos x="4857" z="2069" />
 		<pos x="5016" z="2305" />
@@ -611,32 +704,18 @@
     <event name="AnimalSheep" />
     <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
-    <event name="AnimalCows" />
-    <event name="AnimalCowWild" />
-    <event name="AnimalBear_River" />
+    <event name="AnimalBear" />
     <event name="AnimalBears" />
     <event name="AnimalGoat" />
     <event name="AnimalPig" />
     <event name="AnimalPigs" />
     <event name="AnimalSheep_Wild" />
-    <event name="AnimalDeerHerd" />
-    <event name="AnimalDeers" />
-    <event name="AnimalRoeDeers" />
-    <event name="AnimalWildBoar1" />
-    <event name="AnimalWildBoar2" />
-    <event name="AnimalWildBoars" />
-    <event name="AnimalWolves" />
-    <event name="AnimalWolves_Kulno" />
-    <event name="AnimalXzmutant_Boar1" />
-    <event name="AnimalXzmutant_Boars" />
-    <event name="AnimalXzmutant_freshpig" />
-    <event name="AnimalXzmutant_fresh" />
-    <event name="AnimalXzmutant_fresh2" />
-    <event name="AnimalXzmutant_Dog" />
-    <event name="AnimalXzmutant_Dogs" />
-    <event name="AnimalXzmutant_Himera3" />
-    <event name="AnimalXzmutant_Himera3" />
+    <event name="AnimalWildBoar" />
+    <event name="AnimalXz_Boar" />
+    <event name="AnimalXz_fresh" />
+    <event name="AnimalXz_fresh2" />
+    <event name="AnimalXz_Dog" />
+    <event name="AnimalXz_Himera3" />
     <event name="InfectedArmy1" />
     <event name="InfectedArmyConvoy" />
-    <event name="InfectedArmyRuss" />
 </eventposdef>
